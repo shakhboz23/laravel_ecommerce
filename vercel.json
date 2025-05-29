@@ -1,7 +1,7 @@
 {
     "version": 2,
     "functions": {
-        "api/index.php": { "runtime": "vercel-php@latest" }
+        "api/index.php": { "runtime": "vercel-php@0.7.1" }
     },
     "routes": [
         {
@@ -22,7 +22,7 @@
         }
     ],
     "env": {
-        "APP_NAME": "Ecommerce",
+        "APP_NAME": "Laravel Vercel",
         "APP_DEBUG": "false",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
